@@ -25,3 +25,20 @@ hs100.py 192.168.1.20 9999 status
 Print power consumption (tested and working with my (Nealefelaen's) hs110):
 ```sh
 hs100.py 192.168.1.20 9999 emeter
+```
+
+Print watt hours for recorded days:
+```sh
+hs100.py 192.168.1.20 9999 daystat_wh
+```
+
+Print minutes uptime for recorded days:
+```sh
+hs100.py 192.168.1.20 9999 daystat_time
+```
+
+... work in progress, the Kasa app also has weekly and monthly summaries as well as current/average vs total - probably more commands to find :)
+Some commands that I found that I'm not sure what they do:
+daystat (gives me an empty list in the same format as daystat_wh)
+dayhistory (gives me an empty list in the same format as daystat_time)
+realtime2 (probably just a duplicate of emeter)
