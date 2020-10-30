@@ -1,6 +1,8 @@
 Python client for the tp-link hs100, hs110 and hs200 wifi plug
 ============
 
+I (Nealefelaen) didn't like how netcat was working with the response from my hs110 so I rewrote the minimum of the script in Python (no check, toggle, or argument checking).
+
 Python script to connect over TCP/IP to an hs100, hs103, hs110, hs200 smart plugs, switch it on and off and query status information. You'll need the IP address and port (was 9999 in my tests) and a command, e.g.:
 
 Switch plug on:
