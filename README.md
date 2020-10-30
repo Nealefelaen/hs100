@@ -19,9 +19,9 @@ hs100.py 192.168.1.20 9999 off
 
 Print plug system status:
 ```sh
-hs100.sh 192.168.1.20 9999 status
+hs100.py 192.168.1.20 9999 status
 ```
 
 Print power consumption (tested and working with my (Nealefelaen's) hs110):
 ```sh
-hs100.sh 192.168.1.20 9999 emeter
+hs100.py 192.168.1.20 9999 emeter
